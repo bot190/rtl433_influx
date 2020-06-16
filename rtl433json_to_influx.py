@@ -76,6 +76,12 @@ mappings = {
         'heating': None,
         'heating_temp': None,
         'water': None,
+
+        'consumption_int_cnt': None,
+        'module_prog_state': None,
+        'async_count': None,
+        'consumption': None,
+        'transmit_time_offset': None,
 }
 
 client = InfluxDBClient('localhost', 8086, 'root', 'root', 'rtl433')
